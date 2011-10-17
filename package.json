@@ -1,0 +1,15 @@
+{
+  "author": "Marcin Wiśniowski <shfx@shfx.pl> (http://shfx.pl)",
+  "name": "node-lexer",
+  "description": "Simple lexer that can be used both server side or client side (browserify)",
+  "version": "0.1.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "main.js",
+  "engines": {
+    "node": "~v0.4.11"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

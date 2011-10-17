@@ -1,0 +1,1 @@
+exports.Lexer = require('./lib/lexer').Lexer;
