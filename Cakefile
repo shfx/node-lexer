@@ -1,7 +1,7 @@
 {exec} = require 'child_process'
 
 task 'build', (options) ->
-  exec 'coffee -lc examples/*.coffee lib/*.coffee', (err, stdout, stderr) ->
+  exec 'coffee -lcb examples/*.coffee lib/*.coffee', (err, stdout, stderr) ->
     throw err if err
     console.log(stderr) if stderr
 
