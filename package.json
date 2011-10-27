@@ -4,12 +4,17 @@
   "description": "Simple lexer that can be used both server side or client side (browserify)",
   "version": "0.1.0",
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "git://github.com/shfx/node-lexer.git"
   },
   "main": "main.js",
   "engines": {
     "node": "~v0.4.11"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "install": "cake clear; cake build",
+    "update": "cake clear; cake build"
+  }
 }
