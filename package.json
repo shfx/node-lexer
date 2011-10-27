@@ -11,7 +11,9 @@
   "engines": {
     "node": "~v0.4.11"
   },
-  "dependencies": {},
+  "dependencies": {
+    "coffee-script": "~1.1.2"
+  },
   "devDependencies": {},
   "scripts": {
     "install": "cake clear; cake build",
