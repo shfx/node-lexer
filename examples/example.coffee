@@ -1,4 +1,4 @@
-Lexer = require('../main').Lexer;
+{Lexer} = require('../main');
 
 tokens =
   words:       /^[a-z]+/i,
