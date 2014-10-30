@@ -14,5 +14,5 @@
   "dependencies": {
     "coffee-script": "~1.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {}
 }
