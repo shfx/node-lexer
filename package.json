@@ -16,7 +16,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "install": "cake clear; cake build",
-    "update": "cake clear; cake build"
+    "install": "cake build && cake build",
+    "update": "cake build && cake build"
   }
 }
