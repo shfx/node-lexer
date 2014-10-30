@@ -14,5 +14,9 @@
   "dependencies": {
     "coffee-script": "~1.1.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "install": "cake build && cake build",
+    "update": "cake build && cake build"
+  }
 }
